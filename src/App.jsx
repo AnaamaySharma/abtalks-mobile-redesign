@@ -7,7 +7,7 @@ export default function App() {
   return <Routes>
     <Route path="/" element={<Landing />} />
     <Route path="/dashboard" element={<Dashboard />} />
-    <Route path="/dashboard/day/12" element={<ChallengeDay />} />
+    <Route path="/day/12" element={<ChallengeDay />} />
     <Route path="*" element={<Landing />} />
   </Routes>
 }
